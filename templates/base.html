@@ -5,11 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>$title</title>
   <meta name="description" content="$description">
+  <meta name="author" content="Shubham Trivedi">
+  <meta name="theme-color" content="#f8fafc" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b1120" media="(prefers-color-scheme: dark)">
   <link rel="canonical" href="$canonical">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <meta property="og:site_name" content="Shubham Trivedi">
   <meta property="og:type" content="$og_type">
   <meta property="og:title" content="$title">
   <meta property="og:description" content="$description">
   <meta property="og:url" content="$canonical">
+  <meta name="twitter:card" content="summary">
   <link rel="stylesheet" href="/style.css?v=$css_version">
   <script src="/site.js" defer></script>
 </head>
@@ -17,15 +23,19 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">st.</span> Shubham Trivedi</a>
+      <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">st.</span><span class="brand-text">Shubham Trivedi<span class="brand-role">Embedded Linux &amp; Yocto</span></span></a>
       <nav aria-label="Primary"><ul class="nav-list">$navigation</ul></nav>
     </div>
   </header>
   <main id="main" class="container $main_class" tabindex="-1">$body</main>
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p><span class="footer-name">Shubham Trivedi</span><br>Build. Document. Share. &middot; &copy; <span id="year">2026</span></p>
-      <nav class="footer-links" aria-label="Social profiles"><a href="https://github.com/shubhamtrivedi95">GitHub</a><a href="https://www.linkedin.com/in/shubhamtrivedi95">LinkedIn</a></nav>
+      <div>
+        <p class="footer-name">Shubham Trivedi</p>
+        <p>Senior Embedded Engineer &middot; Embedded Linux, Yocto &amp; BSP</p>
+        <p class="footer-copy">&copy; <span id="year">2026</span> Shubham Trivedi. Built with Python and published on GitHub Pages.</p>
+      </div>
+      <nav class="footer-links" aria-label="Social profiles"><a href="https://github.com/shubhamtrivedi95">$github_icon<span>GitHub</span></a><a href="https://www.linkedin.com/in/shubhamtrivedi95">$linkedin_icon<span>LinkedIn</span></a></nav>
     </div>
   </footer>
 </body>

@@ -1,7 +1,7 @@
 ---
 {
   "title": "Early electronics lab: displays, sensors, and clocks",
-  "summary": "Public code and published tutorials connect microcontroller experiments to reproducible learning resources.",
+  "summary": "Arduino, Raspberry Pi, 8051, and PIC experiments, each paired with public code and a published tutorial.",
   "category": "project",
   "status": "Historical examples"
 }
@@ -11,7 +11,7 @@
 
 My early projects paired hardware experiments with written explanations. The public artifacts include an Arduino graphical calculator, Raspberry Pi LCD interfacing, and real-time clock examples for different microcontrollers.
 
-## Follow the artifacts
+## Code and tutorials
 
 - Arduino calculator: [code](https://github.com/shubhamtrivedi95/Calculator-using-arduino) and [Instructables walkthrough](https://www.instructables.com/Graphical-Calculator-Using-Arduino/).
 - Raspberry Pi LCD: [code](https://github.com/shubhamtrivedi95/Rpi_lcd) and [tutorial](https://www.instructables.com/LCD-16x2-Interface-With-Raspberry-Pi/).
@@ -20,6 +20,6 @@ My early projects paired hardware experiments with written explanations. The pub
 
 ## Reuse with context
 
-These are historical learning examples. Check wiring, voltage compatibility, toolchain versions, and repository contents before attempting a build. They have not been retested on current hardware for this portfolio.
+These are historical learning examples. Check wiring, voltage compatibility, toolchain versions, and repository contents before attempting a build. They have not been retested on current hardware.
 
 [Browse all tutorial summaries](/journal.html#tutorials)

@@ -2,16 +2,16 @@
   "repositories": [
     {"name":"yocto-board-lab","kind":"Original / active lab","summary":"Multi-board Yocto configurations, bring-up notes, and validation status."},
     {"name":"UltraDistSensor","kind":"Original / library","summary":"Arduino ultrasonic sensor library with public examples."},
-    {"name":"BMP180-and-IIS328DQ-interface-to-STM32","kind":"Original / hardware example","summary":"STM32 sensor interfacing project described as using STM32CubeMX and SW4STM32."},
+    {"name":"BMP180-and-IIS328DQ-interface-to-STM32","kind":"Original / hardware example","summary":"BMP180 and IIS328DQ sensor interfacing on STM32, built with STM32CubeMX and SW4STM32."},
     {"name":"Calculator-using-arduino","kind":"Original / historical","summary":"Code companion to the Arduino calculator tutorial."},
     {"name":"Rpi_lcd","kind":"Original / historical","summary":"16x2 LCD interfacing with Raspberry Pi."},
     {"name":"rtc_89s52","kind":"Original / historical","summary":"AT89S52 real-time clock example."},
     {"name":"RTC_PIC18f452","kind":"Original / historical","summary":"PIC18F452 real-time clock example."},
-    {"name":"computing-led-and-sensor-using-nodemcu-IOT","kind":"Original / historical","summary":"NodeMCU IoT experiment; inspect the source for implementation details."},
-    {"name":"moisture","kind":"Original / experiment","summary":"Repository described as a moisture API test."},
+    {"name":"computing-led-and-sensor-using-nodemcu-IOT","kind":"Original / historical","summary":"NodeMCU IoT experiment with an LED and a sensor."},
+    {"name":"moisture","kind":"Original / experiment","summary":"Early moisture API test."},
     {"name":"moisture_api","kind":"Original / experiment","summary":"Django server code for the SIH grain moisture monitoring project."},
-    {"name":"krishimitra","kind":"Original / code archive","summary":"Public repository; no detailed implementation claim is made here."},
-    {"name":"pc-ble-driver-py","kind":"Fork / upstream work","summary":"Fork of Python bindings for the BLE driver library; not presented as an original library."},
+    {"name":"krishimitra","kind":"Original / code archive","summary":"Archived project code."},
+    {"name":"pc-ble-driver-py","kind":"Fork / upstream work","summary":"Fork of the Python bindings for the pc-ble-driver BLE library."},
     {"name":"library-registry","kind":"Fork / upstream work","summary":"Fork of the Arduino Library Manager list."}
   ],
   "tutorials": [

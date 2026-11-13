@@ -14,9 +14,9 @@ def create_post(title, category, slug):
     if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", slug):
         raise ValueError("Use a lowercase, hyphenated slug")
     path = ROOT / "content" / "posts" / (slug + ".md")
-    metadata = dict(title=title, summary="Describe the work and the available evidence.", category=category, status="Draft", date=date.today().isoformat(), draft=True)
+    metadata = dict(title=title, summary="One or two sentences describing the work and its outcome.", category=category, status="Draft", date=date.today().isoformat(), draft=True)
     with path.open("x", encoding="utf-8", newline="\n") as output:
-        output.write("---\n" + json.dumps(metadata, indent=2) + "\n---\n\n## Problem\n\n## My contribution\n\n## Implementation\n\n## Evidence\n\n## Results and limitations\n")
+        output.write("---\n" + json.dumps(metadata, indent=2) + "\n---\n\n## Problem\n\n## My contribution\n\n## Implementation\n\n## Results\n\n## Links\n")
     print(f"Created draft: {path}")
     return path
 

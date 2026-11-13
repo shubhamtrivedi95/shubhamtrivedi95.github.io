@@ -15,9 +15,11 @@ its JSON metadata and Markdown. Do not edit generated _site files.
 3. Use only approved images in assets/images with descriptive alt text. Check
    screenshots for credentials, contact information, private code, attendee
    privacy, and employer material. Never publish raw Posts exports.
-4. Include concrete evidence and explicit limitations. Do not equate course
-   participation with professional certification or code existence with tested
-   behavior. Keep the GitHub/LinkedIn-only contact policy.
+4. Link concrete sources (code, certificates, photos) and state limitations
+   briefly where they matter. Do not equate course participation with
+   professional certification or code existence with tested behavior. Keep
+   visitor-facing wording natural: avoid repeating "evidence" in headings,
+   link text, and disclaimers. Keep the GitHub/LinkedIn-only contact policy.
 5. Leave draft=true until facts and publication permission are confirmed. Set
    draft=false only for approved content; optionally set featured=true.
 6. Use the repository's .venv Python (activate it or use its executable path).

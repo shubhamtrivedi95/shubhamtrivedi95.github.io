@@ -22,9 +22,9 @@ I conducted two Yocto bootcamp batches for colleagues at Atlas Copco: 20 partici
 - Image and kernel customization, packages, and root filesystem generation.
 - Tools including devtool, recipetool, bitbake-getvar, and bitbake-layers.
 
-The post documents delivery and participation; it does not measure learning outcomes or claim a public release of internal course materials.
+The course materials are internal and are not published here.
 
-## Evidence from the sessions
+## From the sessions
 
 ![Presenting the Yocto bootcamp Day 4 session](/assets/images/bootcamp-day4.jpg)
 ![Explaining how existing BitBake tasks can be modified](/assets/images/bootcamp-tasks.jpg)
@@ -32,7 +32,7 @@ The post documents delivery and participation; it does not measure learning outc
 ![Presenting the agenda on Yocto layers and recipes](/assets/images/bootcamp-day2.jpg)
 ![Discussing layers and recipes in the second session photograph](/assets/images/bootcamp-recipes.jpg)
 
-Photographs supplied from my LinkedIn post. These document teaching activity, not an endorsement of this portfolio by the employer.
+Photos originally shared in my LinkedIn post, in a personal capacity.
 
 [Original LinkedIn post](https://www.linkedin.com/feed/update/urn:li:activity:7482102786525028352/)
 

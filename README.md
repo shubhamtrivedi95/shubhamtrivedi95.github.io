@@ -37,8 +37,9 @@ followed by standard Markdown (including fenced code and tables).
 - Place approved JPEG images in `assets\images`; the build strips EXIF and resizes
   referenced images for the site. Unreferenced images (including draft-only
   images) are excluded. Other image formats are not currently imported.
-- Use problem, personal contribution, implementation, evidence, and limitations
-  sections where applicable. Distinguish measured results from plans.
+- Use problem, personal contribution, implementation, results, and links
+  sections where applicable; note limitations briefly where they matter.
+  Distinguish measured results from plans.
 
 Indexes and navigation update automatically. Build-time CSS hashing prevents
 stale styles without manually editing page links. Markdown is trusted author
@@ -66,7 +67,7 @@ even in clients that do not support custom agents.
 | `templates\pages` | Existing About, Experience, Resume source pages; build extracts their main content |
 | `assets\images` | Approved photographic/certificate evidence |
 | `assets\Shubham_Trivedi_Resume.pdf` | Privacy-reviewed downloadable resume |
-| `style.css`, `site.js` | Shared appearance and footer-year behavior |
+| `style.css`, `site.js`, `favicon.svg` | Shared appearance, header/footer behavior, site icon |
 | `scripts` | Post scaffolding, deterministic offline build, internal-link validation |
 | `tests` | Draft exclusion, metadata, assets, links, CSS cache-version checks |
 | `_site` | Generated deployable output, ignored by Git; do not hand-edit |
@@ -132,14 +133,3 @@ Save as `assets\Shubham_Trivedi_Resume.pdf`, then rebuild again. Inspect all PDF
 pages, selectable text, metadata, and link annotations for private information.
 Never publish the original input resume.
 
-## Visitor counts (disabled)
-
-No analytics request, cookie, fake count, or browser-local counter is included.
-GitHub Pages cannot persist visitor totals by itself.
-
-If needed later, choose a privacy-reviewed analytics provider (or self-hosted
-service), register the public domain, document data retention/consent, and add
-its approved integration to the shared template. A public count needs a
-provider-supported read-only public endpoint; never expose a secret API key.
-Label page views versus unique visitors accurately and show an explicit
-unavailable state on errors. Enable tracking only after a separate review.

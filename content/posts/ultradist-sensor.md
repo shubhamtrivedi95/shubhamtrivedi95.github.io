@@ -16,14 +16,14 @@ Ultrasonic ranging involves configuring pins, triggering a measurement, and hand
 
 I created UltraDistSensor to package the HC-SR04 interface as an Arduino library. Its documented API includes sensor attachment, distance readings in centimeters and inches, and echo timeout configuration. The directory listing also describes use with ping sensors and multiple sensors.
 
-## Inspect the implementation
+## Source and examples
 
 - [Source repository and documented API](https://github.com/shubhamtrivedi95/UltraDistSensor)
 - [Example sketches](https://github.com/shubhamtrivedi95/UltraDistSensor/tree/master/examples)
 - [Arduino Libraries directory entry](https://www.arduinolibraries.info/libraries/ultra-dist-sensor)
 
-The directory records version 1.1.0, released July 26, 2021. That listing is evidence of distribution, not a measure of adoption.
+The latest release listed in the directory is version 1.1.0, published July 26, 2021.
 
-## Boundaries
+## Notes for reuse
 
 Sensor accuracy depends on the hardware and operating conditions. Review the current source, examples, and license information before reuse.

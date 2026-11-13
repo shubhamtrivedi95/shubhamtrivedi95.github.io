@@ -49,7 +49,7 @@ We presented the project at the Smart India Hackathon 2018 grand finale at Welin
 ![The team at the grand finale with the award](/assets/images/hackathon-team.jpg)
 ![Holding the hackathon trophy](/assets/images/hackathon-trophy.jpg)
 
-The project description above is my first-hand account of our team's solution. The photographs document the prototype work, event demonstration, and award; they do not establish a later production rollout or measured operational impact.
+This is my first-hand account of our team's hackathon prototype, its demonstration, and the award.
 
 [Original LinkedIn post](https://www.linkedin.com/feed/update/urn:li:activity:6386862751217741824/)
 
