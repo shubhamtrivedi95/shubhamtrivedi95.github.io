@@ -1,0 +1,34 @@
+{
+  "repositories": [
+    {"name":"yocto-board-lab","kind":"Original / active lab","summary":"Multi-board Yocto configurations, bring-up notes, and validation status."},
+    {"name":"UltraDistSensor","kind":"Original / library","summary":"Arduino ultrasonic sensor library with public examples."},
+    {"name":"BMP180-and-IIS328DQ-interface-to-STM32","kind":"Original / hardware example","summary":"STM32 sensor interfacing project described as using STM32CubeMX and SW4STM32."},
+    {"name":"Calculator-using-arduino","kind":"Original / historical","summary":"Code companion to the Arduino calculator tutorial."},
+    {"name":"Rpi_lcd","kind":"Original / historical","summary":"16x2 LCD interfacing with Raspberry Pi."},
+    {"name":"rtc_89s52","kind":"Original / historical","summary":"AT89S52 real-time clock example."},
+    {"name":"RTC_PIC18f452","kind":"Original / historical","summary":"PIC18F452 real-time clock example."},
+    {"name":"computing-led-and-sensor-using-nodemcu-IOT","kind":"Original / historical","summary":"NodeMCU IoT experiment; inspect the source for implementation details."},
+    {"name":"cmake-project","kind":"Original / code archive","summary":"Public repository; no project description provided."},
+    {"name":"moisture","kind":"Original / experiment","summary":"Repository described as a moisture API test."},
+    {"name":"moisture_api","kind":"Original / experiment","summary":"Repository described as a moisture monitor API."},
+    {"name":"krishimitra","kind":"Original / code archive","summary":"Public repository; no detailed implementation claim is made here."},
+    {"name":"pc-ble-driver-py","kind":"Fork / upstream work","summary":"Fork of Python bindings for the BLE driver library; not presented as an original library."},
+    {"name":"library-registry","kind":"Fork / upstream work","summary":"Fork of the Arduino Library Manager list."},
+    {"name":"shubhamtrivedi95","kind":"Profile repository","summary":"Public GitHub profile repository."},
+    {"name":"shubhamtrivedi95.github.com","kind":"Historical website","summary":"Earlier public website repository."},
+    {"name":"shubhamtrivedi95.github.io","kind":"This portfolio","summary":"The publishing source for this engineering portfolio."}
+  ],
+  "tutorials": [
+    {"title":"Install Django on ASUS Tinker Board","platform":"Instructables","url":"https://www.instructables.com/Install-Django-on-ASUS-Tinker-Board/","summary":"A single-board computer tutorial connecting Linux hardware and a Python web framework."},
+    {"title":"IoT computing with NodeMCU and MicroPython","platform":"Instructables","url":"https://www.instructables.com/IOT-Base-Computing-Using-Nodemcu-and-Micropython/","summary":"An early exploration of networked microcontroller programming with MicroPython."},
+    {"title":"LCD 16x2 interface with Raspberry Pi","platform":"Instructables","url":"https://www.instructables.com/LCD-16x2-Interface-With-Raspberry-Pi/","summary":"A hardware interfacing walkthrough for a character display."},
+    {"title":"Real-time clock using AT89S52","platform":"Instructables","url":"https://www.instructables.com/Real-TIme-Clock-Using-AT89s52/","summary":"An 8051-family microcontroller clock experiment."},
+    {"title":"Real-time clock using PIC18F452","platform":"Instructables","url":"https://www.instructables.com/Real-TIme-Clock-Using-PIC18F452/","summary":"A PIC-family implementation of a real-time clock interface."},
+    {"title":"Graphical calculator using Arduino","platform":"Instructables","url":"https://www.instructables.com/Graphical-Calculator-Using-Arduino/","summary":"An Arduino Uno calculator using a 2.4-inch TFT display shield."},
+    {"title":"16x2 LCD with Raspberry Pi and Python","platform":"Electro Passion / June 2016","url":"https://electro-passionindia.blogspot.com/2016/06/interfacing-16x2-lcd-with-raspberry-pi.html","summary":"An earlier blog explanation of GPIO-based display interfacing."},
+    {"title":"DS1307 RTC with AT89S52","platform":"Electro Passion / June 2016","url":"https://electro-passionindia.blogspot.com/2016/06/real-time-clockinterfacing-ds1307-rtc.html","summary":"A blog entry on linking a real-time clock to an 8051-family controller."},
+    {"title":"DS1307 RTC with PIC18F452","platform":"Electro Passion / June 2016","url":"https://electro-passionindia.blogspot.com/2016/06/real-time-clock.html","summary":"A parallel clock-interfacing experiment on a PIC microcontroller."},
+    {"title":"Arduino electronics calculator","platform":"Electro Passion / May 2016","url":"https://electro-passionindia.blogspot.com/2016/05/electronics-calculator-using-arduino.html","summary":"The blog record of the Arduino Uno and TFT calculator build."},
+    {"title":"USB AVR and AT89Sxx ISP programmer","platform":"Electro Passion / September 2015","url":"https://electro-passionindia.blogspot.com/2015/09/usb-avr-and-at89sxx-isp-programmer.html","summary":"An older blog entry about an ISP programming setup."}
+  ]
+}
