@@ -80,8 +80,9 @@ dependencies, and agent files are not deployed.
 
 Seed content uses original summaries with links to the supplied LinkedIn posts,
 Electro Passion, Instructables, Arduino Libraries, and public GitHub repositories.
-Repository descriptions and status were reviewed in November 2026; no build
-fetches external content or claims current compatibility. Forks are labeled.
+Repository descriptions and status were reviewed in November 2026; the
+directory excludes this portfolio repository. No build fetches external content
+or claims current compatibility. Forks are labeled.
 Old tutorials remain historical references, not freshly validated instructions.
 
 The supplied Yocto post documents two batches and 35 colleagues. The SIH project

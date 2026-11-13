@@ -1,7 +1,7 @@
 ---
 {
-  "title": "UltraDistSensor: an Arduino ultrasonic sensor library",
-  "summary": "A reusable HC-SR04 interface with public source, examples, and an Arduino library directory listing.",
+  "title": "UltraDistSensor: an ultrasonic sensor library",
+  "summary": "A reusable HC-SR04 interface with public source, examples, and a library directory listing.",
   "category": "project",
   "status": "Published library",
   "featured": true

@@ -8,15 +8,11 @@
     {"name":"rtc_89s52","kind":"Original / historical","summary":"AT89S52 real-time clock example."},
     {"name":"RTC_PIC18f452","kind":"Original / historical","summary":"PIC18F452 real-time clock example."},
     {"name":"computing-led-and-sensor-using-nodemcu-IOT","kind":"Original / historical","summary":"NodeMCU IoT experiment; inspect the source for implementation details."},
-    {"name":"cmake-project","kind":"Original / code archive","summary":"Public repository; no project description provided."},
     {"name":"moisture","kind":"Original / experiment","summary":"Repository described as a moisture API test."},
-    {"name":"moisture_api","kind":"Original / experiment","summary":"Repository described as a moisture monitor API."},
+    {"name":"moisture_api","kind":"Original / experiment","summary":"Django server code for the SIH grain moisture monitoring project."},
     {"name":"krishimitra","kind":"Original / code archive","summary":"Public repository; no detailed implementation claim is made here."},
     {"name":"pc-ble-driver-py","kind":"Fork / upstream work","summary":"Fork of Python bindings for the BLE driver library; not presented as an original library."},
-    {"name":"library-registry","kind":"Fork / upstream work","summary":"Fork of the Arduino Library Manager list."},
-    {"name":"shubhamtrivedi95","kind":"Profile repository","summary":"Public GitHub profile repository."},
-    {"name":"shubhamtrivedi95.github.com","kind":"Historical website","summary":"Earlier public website repository."},
-    {"name":"shubhamtrivedi95.github.io","kind":"This portfolio","summary":"The publishing source for this engineering portfolio."}
+    {"name":"library-registry","kind":"Fork / upstream work","summary":"Fork of the Arduino Library Manager list."}
   ],
   "tutorials": [
     {"title":"Install Django on ASUS Tinker Board","platform":"Instructables","url":"https://www.instructables.com/Install-Django-on-ASUS-Tinker-Board/","summary":"A single-board computer tutorial connecting Linux hardware and a Python web framework."},

@@ -148,7 +148,7 @@ def build():
     featured = sorted(posts, key=lambda p: p.get("featured", False), reverse=True)[:4]
     home = '''<section class="hero"><div><p class="eyebrow">Shubham Trivedi / Engineer &amp; maker</p>
     <h1>Built with curiosity.<br><span class="text-accent">Backed by evidence.</span></h1>
-    <p class="hero-copy">Embedded Linux platforms, an Arduino library, hands-on electronics tutorials, and knowledge shared with other engineers. Explore the code, the process, and the work behind the resume.</p>
+    <p class="hero-copy">Embedded Linux platforms, an ultrasonic sensor library, hands-on electronics tutorials, and knowledge shared with other engineers. Explore the code, the process, and the work behind the resume.</p>
     <div class="actions"><a class="button button-primary" href="/projects.html">Explore my work &rarr;</a><a class="button" href="/journal.html">Read the journal</a></div></div>
     <figure class="hero-evidence"><img src="/assets/images/bootcamp-day4.jpg" alt="Shubham presenting a Yocto bootcamp session" width="1024" height="768"><figcaption>Teaching Yocto at Atlas Copco &middot; 2026<br><a href="/posts/yocto-bootcamps.html">Two batches. 35 colleagues. Hands-on learning.</a></figcaption></figure></section>'''
     home += '<section class="section"><div class="section-heading"><div><p class="eyebrow">Code / teaching / community</p><h2>Selected evidence</h2></div><a href="/projects.html">Browse all work &rarr;</a></div>' + cards(featured) + "</section>"
